@@ -2,6 +2,7 @@ export interface Invoice {
   id: string;
   estateId?: string;
   contractId?: string;
+  assetId?: string;
   clientId: string;
   clientName: string;
   type: "rent" | "service" | "maintenance" | "penalty" | "other";
