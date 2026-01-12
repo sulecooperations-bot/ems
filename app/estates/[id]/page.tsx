@@ -28,7 +28,7 @@ export default function EstateDetailPage({ params }: { params: { id: string } })
       <AppShell>
         <div className="text-center py-12">
           <h1 className="text-2xl font-bold mb-2">Estate not found</h1>
-          <p className="text-muted-foreground mb-4">The estate you're looking for doesn't exist.</p>
+          <p className="text-muted-foreground mb-4">The estate you&apos;re looking for doesn&apos;t exist.</p>
           <Link href="/estates">
             <Button>Back to Estates</Button>
           </Link>
@@ -191,7 +191,7 @@ export default function EstateDetailPage({ params }: { params: { id: string } })
             <Card>
               <CardHeader>
                 <CardTitle>Health Score Breakdown</CardTitle>
-                <CardDescription>Click "Explain" to see calculation details</CardDescription>
+                <CardDescription>Click &quot;Explain&quot; to see calculation details</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="space-y-3">
